@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>HW assignment one</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <script type="text/javascript" src="math.js"></script>
+    </head>
+    <body>
+        <h1>Number form</h1>   
+        <form name="mathForm">
+            Enter numbers here:
+            <input type="number" id="formNumber" value="0">
+            <button onclick="addNumber(event)">Make math happen</button>
+            <button onclick="resetButton(event)">Reset</button>
+            <br>
+            <br>
+            Count:<p id="count"></p>
+            <br>
+            Sum: <p id="sum"></p>
+            <br>
+            Average: <p id="avg"></p>
+        </form>  
+    </body>
+</html>
